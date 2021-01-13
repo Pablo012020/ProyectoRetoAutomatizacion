@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Ejecutar Proyecto Reto Screenplay') {
+            steps {
+                script{
+                try{
+                    //bat para windows la cual ejecuta el comando gradle para realizar la pruebas
+                    echo 'Inicio Test Gradle'
+                    bat ("gradle clean test aggregate")
+                    echo 'Finaliza Test Gradle'
+                }
+                catch(errortest){
+                   echo 'Error Test: ' + errortest
+                }    
+            }
+            }
+        }
+        stage('Creacion Reporte Pruebas Serenity') {
+            steps {
+                script{
+                //bat para windows la cual ejecuta el comando gradle para agregar el reporte serenity de la pruebas ejecutadas
+                bat("gradle aggregate")
+    			echo 'Ha ejecutado evidencias'
+                publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'target\\site\\serenity', reportFiles: 'index.html', reportName: 'Reporte de Pruebas', reportTitles: ''])
+            }
+            }
+        }
+    }
+}
