@@ -1,0 +1,4 @@
+co/com/choucair/certification/proyectoreto/runners/RunnerTags.java
+ co.com.choucair.certification.proyectoreto.runners.RunnerTags
+co/com/choucair/certification/proyectoreto/stepdefinitions/RetoAutomatizacionStepDefinitions.java
+ co.com.choucair.certification.proyectoreto.stepdefinitions.RetoAutomatizacionStepDefinitions

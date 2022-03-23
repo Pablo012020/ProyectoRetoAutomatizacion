@@ -1,0 +1,22 @@
+co/com/choucair/certification/proyectoreto/userinterface/PhpTravelsPage.java
+ co.com.choucair.certification.proyectoreto.userinterface.PhpTravelsPage
+co/com/choucair/certification/proyectoreto/tasks/OpenUp.java
+ co.com.choucair.certification.proyectoreto.tasks.OpenUp
+co/com/choucair/certification/proyectoreto/tasks/Login.java
+ co.com.choucair.certification.proyectoreto.tasks.Login
+co/com/choucair/certification/proyectoreto/questions/ValidarCategoria.java
+ co.com.choucair.certification.proyectoreto.questions.ValidarCategoria
+co/com/choucair/certification/proyectoreto/tasks/CrearCategoria.java
+ co.com.choucair.certification.proyectoreto.tasks.CrearCategoria
+co/com/choucair/certification/proyectoreto/userinterface/MenuPage.java
+ co.com.choucair.certification.proyectoreto.userinterface.MenuPage
+co/com/choucair/certification/proyectoreto/tasks/CrearPost.java
+ co.com.choucair.certification.proyectoreto.tasks.CrearPost
+co/com/choucair/certification/proyectoreto/userinterface/PhpTravelsLoginPage.java
+ co.com.choucair.certification.proyectoreto.userinterface.PhpTravelsLoginPage
+co/com/choucair/certification/proyectoreto/questions/ValidarPost.java
+ co.com.choucair.certification.proyectoreto.questions.ValidarPost
+co/com/choucair/certification/proyectoreto/userinterface/CrearCategoriaPage.java
+ co.com.choucair.certification.proyectoreto.userinterface.CrearCategoriaPage
+co/com/choucair/certification/proyectoreto/userinterface/CrearPostPage.java
+ co.com.choucair.certification.proyectoreto.userinterface.CrearPostPage
